@@ -1,0 +1,46 @@
+{
+"title": "キーを文字列に変換",
+"rules": [
+  {
+"description": "INSERTを:pray:に変換",
+"manipulators": [
+    {
+"from": {
+"key_code": "insert"
+      },
+"to": [
+        {"key_code": "lang2"},
+        {"key_code": "semicolon", "modifiers": "left_shift"},
+        {"key_code": "p"},
+        {"key_code": "r"},
+        {"key_code": "a"},
+        {"key_code": "y"},
+        {"key_code": "semicolon", "modifiers": "left_shift"},
+        {"key_code": "spacebar"}
+      ],
+"type": "basic"
+    }
+    ]
+  },
+  {
+"description": "HOMEを:bow:に変換",
+"manipulators": [
+    {
+"from": {
+"key_code": "home"
+      },
+"to": [
+        {"key_code": "lang2"},
+        {"key_code": "semicolon", "modifiers": "left_shift"},
+        {"key_code": "b"},
+        {"key_code": "o"},
+        {"key_code": "w"},
+        {"key_code": "semicolon", "modifiers": "left_shift"},
+        {"key_code": "spacebar"}
+      ],
+"type": "basic"
+    }
+    ]
+  }
+  ]
+}
