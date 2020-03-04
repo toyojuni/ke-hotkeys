@@ -7,7 +7,9 @@ Karabiner-Elementsのhotkey設定
 にjsonを格納して、Karabiner-ElementsのComplex Modificationから有効化する。
 
 INSERTで:pray: が、HOMEで:bow: が入力できるようになる。
-文字列の最後尾にスペースがないとSlackで連打した時に不具合が起きるので入れてあります。
+![](https://gyazo.com/89b27e2459465353f3c209f49139da20.gif)
+
+文字列の最後尾に半角スペースがないとSlackで連打した時に不具合が起きるので入れてあります。
 
 ## 参考記事
 https://clrmemory.com/mac/karabiner-elements-string/
